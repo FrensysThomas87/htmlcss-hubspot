@@ -59,4 +59,53 @@ header{
   color: #000;
 }
 
+
+
+
+.right-navbar-container{
+  width: 400px;
+  height: 50px;
+  position: relative;
+  top:30px;
+
+
+}
+
+
+ .right-navbar-container nav ul li a img{
+  width: 40px;
+  height: 40px;
+}
+
+.right-navbar-container nav ul li{
+  display: inline-block;
+  font-size: 20px;
+}
+
+.right-navbar-container nav ul li:first-child{
+  padding-right: 50px;
+}
+
+.right-navbar-container nav ul li a{
+  text-decoration: none;
+
+}
+
+.login-button{
+  border: 1px solid #f87058;
+  color: #f87058;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.get-hubspot-free-button{
+  background-color: #f87058;
+  border-radius: 4px;
+  color: lightblue;
+  padding: 10px 20px;;
+}
+
+
+
 /*END HEADER*/
