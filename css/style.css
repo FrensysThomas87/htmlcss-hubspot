@@ -28,6 +28,10 @@
 .min-width-1200px{
   min-width: 1200px;
 }
+
+a{
+  text-decoration: none;
+}
 /*END UTILITIES*/
 
 /*HEADER*/
@@ -118,8 +122,8 @@ header{
 /*UNDER HEADER NAV*/
 .under-header-navigation{
   height: 100px;
-  border-bottom: 1px solid black;
   position: relative;
+  
 }
 
 .hubspot-logo-container{
@@ -136,8 +140,10 @@ header{
   padding-right: 30px;
 }
 
+
+
 .right-nav-under-header nav ul li a{
-  text-decoration: none;
+
   color: #000;
 }
 
@@ -147,14 +153,13 @@ header{
 
 
 .jumbotron{
-  height: 800px;
+  height: 700px;
   background: url("../img/jumbotron.png") no-repeat;
   background-position: bottom 0 right 0;
 
 }
 
 .jumbotron-container{
-  margin-top: 80px;
   width: 700px;
 
 }
@@ -182,17 +187,34 @@ header{
 }
 
 
-.jumbotron-container a{
-  text-decoration: none;
-}
-
 .free-tools-link{
-  text-decoration: none;
   color: #000;
 }
 
-
-
-
-
 /*END JUMBOTRON*/
+
+/*HUB KIND SECTION*/
+
+
+
+.slogan-container{
+  width: 70%;
+  height: 500px;
+  text-align: center;
+  padding: 30px 60px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.slogan-container h2{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.slogan-container p{
+  font-size: 15px;
+  line-height: 30px;
+
+}
+/*END HUB KIND SECTION*/
