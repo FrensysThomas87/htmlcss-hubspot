@@ -25,3 +25,38 @@
   float: right;
 }
 /*END UTILITIES*/
+
+/*HEADER*/
+header{
+  height: 100px;
+  background-color: lightblue;
+}
+
+.left-navbar-container{
+  width: 300px;
+  position: relative;
+  top: 40px;
+
+}
+
+.left-navbar-container nav ul li{
+  display: inline-block;
+  font-size: 20px;
+}
+
+
+.left-navbar-container ul li:first-child{
+  border-right: 1px solid #000;
+  padding-right: 30px;
+}
+
+.left-navbar-container nav ul li:nth-child(2){
+  padding-left: 30px;
+}
+
+.left-navbar-container nav ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+/*END HEADER*/
