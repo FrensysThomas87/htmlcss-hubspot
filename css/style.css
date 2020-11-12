@@ -24,10 +24,15 @@
 .float-r{
   float: right;
 }
+
+.min-width-1200px{
+  min-width: 1200px;
+}
 /*END UTILITIES*/
 
 /*HEADER*/
 header{
+
   height: 100px;
   background-color: lightblue;
   border-bottom: 2px solid #000;
@@ -136,5 +141,58 @@ header{
   color: #000;
 }
 
-
 /*END UNDER HEADER NAV*/
+
+/*JUMBOTRON*/
+
+
+.jumbotron{
+  height: 800px;
+  background: url("../img/jumbotron.png") no-repeat;
+  background-position: bottom 0 right 0;
+
+}
+
+.jumbotron-container{
+  margin-top: 80px;
+  width: 700px;
+
+}
+
+.jumbotron-container h1{
+  font-size: 70px;
+}
+
+.jumbotron-container p{
+  margin-top: 30px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.free-hubspot-button{
+  background-color: #f87058;
+  border-radius: 4px;
+  padding: 20px 30px;
+  color: #fff;
+  width: 200px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+
+.jumbotron-container a{
+  text-decoration: none;
+}
+
+.free-tools-link{
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+
+
+/*END JUMBOTRON*/
