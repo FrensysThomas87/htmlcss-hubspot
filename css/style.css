@@ -36,6 +36,10 @@ body{
 a{
   text-decoration: none;
 }
+
+.max-width{
+  min-width: 1200px;
+}
 /*END UTILITIES*/
 
 /*HEADER*/
@@ -303,7 +307,9 @@ font-size: 20px;
 .check-description:last-child{
   margin-right: 0;
 }
+/*END HUBSPOT CRM*/
 
+/* HUB KIND SECTION*/
 .hub-kind-box{
   width:calc(100% / 3 - 28px) ;
   height: 820px;
@@ -358,10 +364,6 @@ font-size: 20px;
 }
 
 
-
-
-
-
 .learn-more-button{
   background-color: #f87058;
   border-radius: 4px;
@@ -381,22 +383,30 @@ font-size: 20px;
 .learn-more-button a span{
   color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*END HUBSPOT CRM*/
 /*END HUB KIND SECTION*/
+
+/* NUMBERS SECTION */
+.numbers-section{
+  height: 800px;
+  background-color: #00b9a9;
+}
+
+.spot-container{
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+  padding: 25px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.spot-container h2{
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.spot-container p{
+  line-height: 30px;
+  font-size: 15px;
+}
+/*END NUMBERS SECTION */
