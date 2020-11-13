@@ -541,7 +541,6 @@ font-size: 20px;
 
 /*FOOTER*/
 footer{
-  height: 800px;
   background-color: #2d3e50;
   margin-top: 50px;
   padding: 30px 0;
@@ -549,14 +548,10 @@ footer{
 
 .footer-services-container{
   width: 100%;
-  height: 500px;
-  border: 1px solid #fff;
 }
 
 .footer-services-box{
   width: 25%;
-  height: 500px;
-  border: 1px solid #fff;
   color: #fff;
 }
 
@@ -576,6 +571,7 @@ footer{
   width: 185px;
   margin-top: 20px;
   padding: 15px 0;
+  text-align: center;
 }
 
 a .hubspot-support-button span{
@@ -584,10 +580,51 @@ a .hubspot-support-button span{
 }
 
 .icon{
-  width: 30px;
-  height: 30px;
   margin-top: 20px;
-  
+
 }
+
+.icon i{
+  margin-left: 25px;
+}
+
+.icon i:first-child{
+  margin-left: 0;
+}
+
+
+
+.languages-container{
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 15px;
+  color:#fff;
+}
+
+.languages-container span{
+  padding-right: 15px;
+}
+
+.logo-hubspot-bianco-container{
+  margin-top: 30px;
+
+}
+
+.logo-hubspot-bianco-container p{
+  color: #fff;
+  margin-top: 10px;
+}
+
+.privacy-container{
+  margin-top: 30px;
+}
+
+.privacy-container span{
+  margin-right: 20px;
+  color: #fff;
+}
+
 
 /*END FOOTER*/
