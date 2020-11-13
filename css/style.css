@@ -197,7 +197,7 @@ header{
 
 .kind-section{
   background-color: lightblue;
-  height: 1000px;
+
 }
 
 .slogan-container{
@@ -253,12 +253,18 @@ header{
 }
 
 .free-hubspot-crm-description h2{
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .free-hubspot-crm-description p{
   line-height: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.free-hubspot-crm-description h3{
+font-size: 20px;
 }
 
 .free-hubspot-crm-description hr{
@@ -280,7 +286,33 @@ header{
   margin-right: 0;
 }
 
+.hub-kind-box{
+  width:calc(100% / 3 - 28px) ;
+  height: 1000px;
+  background-color: #fff;
+  margin-top: 50px;
+  border-radius: 4px;
+}
 
+.hub-kind-box:nth-child(2){
+  margin: 50px 40px;
+
+}
+
+
+/* .hub-kind-box-centrale-container{
+  width: 33%;
+  height: 1000px;
+  border: 1px solid black;
+  margin-top: 50px;
+  padding: 0 20px;
+} */
+
+/* .hub-kind-box-centrale{
+  width: 33%;
+  height: 1000px;
+  background-color: #fff;
+} */
 
 
 
