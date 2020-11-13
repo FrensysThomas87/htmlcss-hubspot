@@ -311,17 +311,21 @@ font-size: 20px;
   margin-top: 50px;
   border-radius: 4px;
   text-align: center;
-  padding: 20px 30px;
+  padding: 20px 20px;
 }
 
 .hub-kind-box:nth-child(2){
   margin: 50px 40px;
 }
 
-.hub-kind-box > img{
 
-  width: 150px;
-  margin-bottom: 15px;
+
+.sales-hub-img{
+  width: 130px;
+}
+
+.service-hub{
+  width: 100px;
 }
 
 .hub-kind-box h2{
