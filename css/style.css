@@ -486,4 +486,31 @@ font-size: 20px;
 .customers-number-container p{
   line-height: 28px;
 }
+
+.logo-partners-container{
+  margin-right: 40px;
+  width: 800px;
+  height: 200px;
+
+}
+
+.logo-partners-images-container{
+  width: 150px;
+  margin-left: 40px;
+
+}
+
+.top-logo-partners-container,
+.bottom-logo-partners-container{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 30px;
+  
+}
+
+
+.logo-partners-images-container img{
+  width: 100%;
+  height: 100%;
+}
 /*END PARTNERS SECTION*/
