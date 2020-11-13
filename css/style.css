@@ -40,6 +40,18 @@ a{
 .max-width{
   min-width: 1200px;
 }
+
+.free-hubspot-button{
+  background-color: #f87058;
+  border-radius: 4px;
+  padding: 20px 30px;
+  color: #fff;
+  width: 250px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
 /*END UTILITIES*/
 
 /*HEADER*/
@@ -196,17 +208,7 @@ header{
   font-size: 20px;
 }
 
-.free-hubspot-button{
-  background-color: #f87058;
-  border-radius: 4px;
-  padding: 20px 30px;
-  color: #fff;
-  width: 200px;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 20px;
-}
+
 
 
 .free-tools-link{
@@ -505,12 +507,26 @@ font-size: 20px;
   width: 100%;
   height: 100px;
   margin-bottom: 30px;
-  
+
 }
 
 
 .logo-partners-images-container img{
   width: 100%;
   height: 100%;
+}
+
+.grow-with-hubspot-container{
+  margin-top: 50px;
+  width: 400px;
+  }
+
+.grow-with-hubspot-container h2{
+  margin-bottom: 30px;
+}
+
+.grow-with-hubspot-container a span:nth-child(2){
+  color: #000;
+  font-size: 10px;
 }
 /*END PARTNERS SECTION*/
