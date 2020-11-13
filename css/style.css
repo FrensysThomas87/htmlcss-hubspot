@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .container{
   width: 1200px;
   min-width: 1200px;
@@ -156,7 +160,21 @@ header{
   height: 700px;
   background: url("../img/jumbotron.png") no-repeat;
   background-position: bottom 0 right 0;
+  background-color: #fff4ef;
+  position: relative;
 
+}
+
+.jumbotron::before{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  content: "";
+  background-color: #afebe4;
+  height: 80px;
+  width: 100%;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
 }
 
 .jumbotron-container{
