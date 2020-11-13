@@ -386,6 +386,7 @@ font-size: 20px;
 /* NUMBERS SECTION */ /*SPOT SECTION*/
 .numbers-section{
   background-color: #00b9a9;
+  margin-bottom: 50px;
 }
 
 .spot-container{
@@ -423,6 +424,11 @@ font-size: 20px;
 
 .top.grid-numbers-box{
   border-top: 0px;
+
+}
+
+.grid-numbers-box{
+  height: 150px;
 }
 
 .bottom.grid-numbers-box{
@@ -453,9 +459,31 @@ font-size: 20px;
   color: #fff;
 }
 
-.grid-numbers-box h2{
-  font-family: 'Montserrat', sans-serif;
+ .grid-numbers-box h2{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 40px;
 }
 
 
 /*END NUMBERS SECTION */
+
+/*PARTNERS SECTION*/
+.partners-section{
+  height: 800px;
+
+}
+
+.customers-number-container{
+  width: 250px;
+  margin-left: 50px;
+}
+
+.customers-number-container h2{
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.customers-number-container p{
+  line-height: 28px;
+}
+/*END PARTNERS SECTION*/
