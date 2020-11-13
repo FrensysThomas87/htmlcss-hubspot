@@ -257,7 +257,7 @@ header{
 }
 
 .free-hubspot-crm-description p{
-  line-height: 25px;
+
   margin-bottom: 20px;
   font-size: 20px;
   line-height: 30px;
@@ -292,27 +292,41 @@ font-size: 20px;
   background-color: #fff;
   margin-top: 50px;
   border-radius: 4px;
+  text-align: center;
+  padding: 20px 30px;
 }
 
 .hub-kind-box:nth-child(2){
   margin: 50px 40px;
+}
 
+.hub-kind-box > img{
+
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.hub-kind-box h2{
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.hub-kind-box p{
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 100px;
+}
+
+.hub-kind-box h3{
+  margin-top: 50px;
+  font-size: 20px;
 }
 
 
-/* .hub-kind-box-centrale-container{
-  width: 33%;
-  height: 1000px;
-  border: 1px solid black;
-  margin-top: 50px;
-  padding: 0 20px;
-} */
 
-/* .hub-kind-box-centrale{
-  width: 33%;
-  height: 1000px;
-  background-color: #fff;
-} */
+
+
+
 
 
 
