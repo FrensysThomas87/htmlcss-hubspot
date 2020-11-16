@@ -42,16 +42,20 @@ a{
 }
 
 .free-hubspot-button{
-  background-color: #f87058;
-  border-radius: 4px;
   padding: 20px 30px;
-  color: #fff;
   width: 250px;
-  text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 20px;
+
+}
+
+.button{
+  border-radius: 4px;
+  background-color: #f87058;
+  color: #fff;
   display: inline-block;
+  text-align: center;
 }
 
 .txt-align-center{
@@ -118,15 +122,7 @@ header .container nav .float-r li a:first-child{
 }
 
 
-.login-button{
-  border: 1px solid #f87058;
-  padding: 5px 10px;
-  border-radius: 4px;
-  color: #f87058;
-  margin-right: 20px;
-  display: inline-block;
 
-}
 
 .login-button{
   border: 1px solid #f87058;
@@ -139,11 +135,8 @@ header .container nav .float-r li a:first-child{
 }
 
 .get-hubspotfree-header-button{
-  background-color:  #f87058;
-  border-radius: 4px;
   padding: 15px 20px;
-  color: #fff;
-  display: inline-block;
+
 }
 /*END NAVBAR-RIGHT*/
 
@@ -153,10 +146,8 @@ header .container nav .float-r li a:first-child{
 
 /*UNDER HEADER NAV*/
 .under-header-navigation{
-
   height: 100px;
   position: relative;
-
 }
 
 .hubspot-logo-container{
@@ -277,12 +268,10 @@ header .container nav .float-r li a:first-child{
   color: #fff;
 }
 
-.learn-more-container a div{
-  background-color: #f87058;
-  text-align: center;
+.learn-more-container a .button{
   padding: 20px 20px;
-  border-radius: 4px;
   margin-top: 10px;
+  display: block;
 }
 
 .free-hubspot-crm-description{
@@ -382,16 +371,12 @@ font-size: 20px;
 
 
 .learn-more-button{
-  background-color: #f87058;
-  border-radius: 4px;
   padding: 20px 30px;
-  color: #fff;
   width: 200px;
-  text-align: center;
   margin-top: 50px;
   margin-bottom: 30px;
   font-size: 20px;
-  display: inline-block;
+
 
 }
 
