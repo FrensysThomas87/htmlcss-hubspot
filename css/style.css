@@ -53,6 +53,10 @@ a{
   font-size: 20px;
   display: inline-block;
 }
+
+.txt-align-center{
+  text-align: center;
+}
 /*END UTILITIES*/
 
 /*HEADER*/
@@ -63,85 +67,93 @@ header{
   border-bottom: 2px solid #000;
 }
 
-.left-navbar-container{
-  width: 300px;
+/* .navbar-container{
   position: relative;
   top: 40px;
 
+} */
+
+header .container nav ul{
+  line-height: 100px;
 }
 
-.left-navbar-container nav ul li{
+header .container nav ul li{
   display: inline-block;
-  font-size: 20px;
+  height: 20px;
+  line-height: 20px;
 }
 
+/*NAVBAR-LEFT*/
 
-.left-navbar-container ul li:first-child{
-  border-right: 1px solid #000;
+header .container nav .float-l li a{
+  color: #000;
+  }
+
+}
+
+header .container nav .float-l li i:first-child{
+  padding-right: 3px;
+}
+
+header .container nav .float-l li:first-child{
   padding-right: 30px;
+  border-right: 1px solid #000;
 }
 
-.left-navbar-container nav ul li:nth-child(2){
+header .container nav .float-l li:nth-child(2){
   padding-left: 30px;
 }
 
-.left-navbar-container nav ul li a{
-  text-decoration: none;
-  color: #000;
-}
+/*END NAVBAR-LEFT*/
 
+/*NAVBAR-RIGHT*/
 
-
-
-.right-navbar-container{
-  width: 400px;
-  height: 50px;
-  position: relative;
-  top:30px;
-
+header .container nav .float-r li:first-child{
+  margin-right: 20px;
 
 }
 
-
- .right-navbar-container nav ul li a img{
-  width: 40px;
-  height: 40px;
+header .container nav .float-r li a:first-child{
+  color: #68c9d8;
 }
 
-.right-navbar-container nav ul li{
+
+.login-button{
+  border: 1px solid #f87058;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #f87058;
+  margin-right: 20px;
   display: inline-block;
-  font-size: 20px;
-}
-
-.right-navbar-container nav ul li:first-child{
-  padding-right: 50px;
-}
-
-.right-navbar-container nav ul li a{
-  text-decoration: none;
 
 }
 
 .login-button{
   border: 1px solid #f87058;
-  color: #f87058;
-  text-align: center;
-  padding: 10px 20px;
+  padding: 15px 20px;
   border-radius: 4px;
+  color: #f87058;
+  margin-right: 20px;
+  display: inline-block;
+
 }
 
-.get-hubspot-free-button{
-  background-color: #f87058;
+.get-hubspotfree-header-button{
+  background-color:  #f87058;
   border-radius: 4px;
+  padding: 15px 20px;
   color: #fff;
-  padding: 10px 20px;;
+  display: inline-block;
 }
+/*END NAVBAR-RIGHT*/
+
 
 /*END HEADER*/
 
 
 /*UNDER HEADER NAV*/
 .under-header-navigation{
+
   height: 100px;
   position: relative;
 
@@ -316,7 +328,6 @@ font-size: 20px;
 /* HUB KIND SECTION*/
 .hub-kind-box{
   width:calc(100% / 3 - 27px) ;
-  height: 820px;
   background-color: #fff;
   margin-top: 50px;
   border-radius: 4px;
@@ -380,9 +391,7 @@ font-size: 20px;
   margin-top: 50px;
   margin-bottom: 30px;
   font-size: 20px;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%);
+  display: inline-block;
 
 }
 
@@ -426,7 +435,6 @@ font-size: 20px;
 .grid-numbers-box{
   text-align: center;
   width: 25%;
-  height: 130px;
   border: 1px solid #fff;
 }
 
