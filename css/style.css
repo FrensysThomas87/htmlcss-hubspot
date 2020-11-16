@@ -9,6 +9,19 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+p{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+h2{
+  font-size: 30px;
+}
+
 .container{
   width: 1200px;
   min-width: 1200px;
@@ -33,9 +46,7 @@ body{
   min-width: 1200px;
 }
 
-a{
-  text-decoration: none;
-}
+
 
 .max-width{
   min-width: 1200px;
@@ -66,10 +77,7 @@ a{
   color: #33475b;
 }
 
-p{
-  font-size: 18px;
-  line-height: 30px;
-}
+
 /*END UTILITIES*/
 
 /*HEADER*/
@@ -251,7 +259,7 @@ header .container nav .float-r li a:first-child{
 }
 
 .slogan-container h2{
-  font-size: 30px;
+
   margin-bottom: 30px;
 }
 
@@ -345,7 +353,7 @@ font-size: 20px;
 }
 
 .hub-kind-box h2{
-  font-size: 30px;
+
   margin-bottom: 15px;
 }
 
@@ -403,7 +411,7 @@ font-size: 20px;
 }
 
 .spot-container h2{
-  font-size: 30px;
+
   margin-bottom: 25px;
 }
 
@@ -480,10 +488,14 @@ font-size: 20px;
   margin-left: 50px;
 }
 
-.customers-number-container h2{
-  margin-bottom: 30px;
+
+
+#customers-number{
   font-size: 40px;
+  margin-bottom: 30px;
 }
+
+
 
 
 
