@@ -599,6 +599,11 @@ footer{
   /* font-size: 15px; */
 }
 
+footer .footer-services-box a p
+{
+  color: #fff;
+}
+
 .hubspot-support-button{
   border-radius: 4px;
   background-color: #fff;
@@ -656,7 +661,7 @@ a .hubspot-support-button span{
   margin-top: 35px;
 }
 
-.privacy-container span{
+.privacy-container a span{
   margin-right: 20px;
   color: #fff;
 }
