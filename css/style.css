@@ -10,7 +10,7 @@ body{
 }
 
 p{
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
 }
 
@@ -255,7 +255,7 @@ header .container nav .float-r li a:first-child{
 
   text-align: center;
   position: relative;
-  padding: 30px 60px;
+  padding: 30px 120px;
 
   /* left: 50%;
   transform: translate(-50%); */
@@ -306,9 +306,7 @@ header .container nav .float-r li a:first-child{
   line-height: 30px;
 }
 
-.free-hubspot-crm-description h3{
-font-size: 20px;
-}
+
 
 .free-hubspot-crm-description hr{
   width: 400px;
@@ -369,7 +367,7 @@ font-size: 20px;
 .hub-kind-box h3{
   margin-top: 50px;
   margin-bottom: 40px;
-  font-size: 20px;
+  
 }
 
 
@@ -577,7 +575,7 @@ footer{
 
 .footer-services-box h4{
   margin-bottom: 20px;
-  
+
 }
 
 .footer-services-box p{
