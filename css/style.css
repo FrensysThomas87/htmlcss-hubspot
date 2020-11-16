@@ -335,7 +335,7 @@ header .container nav .float-r li a:first-child{
 
 /* HUB KIND SECTION*/
 .hub-kind-box{
-  width:calc(100% / 3 - 27px) ;
+  width:calc(100% / 3 - 27px);
   background-color: #fff;
   margin-top: 50px;
   border-radius: 4px;
@@ -343,15 +343,17 @@ header .container nav .float-r li a:first-child{
   padding: 20px 20px;
 }
 
+.sales-hub-container{
+  width:453px;
+  border: 1px solid black;
+  padding: 0 40px;
+}
+
 .hub-kind-box:nth-child(2){
   margin: 50px 40px;
 }
 
-
-
-
-
- .sales-hub-img{
+.sales-hub-img{
   width: 130px;
 }
 
@@ -364,10 +366,12 @@ header .container nav .float-r li a:first-child{
   margin-bottom: 15px;
 }
 
-.hub-kind-box p{
-  /* font-size: 20px; */
+ .hub-kind-box p{
+
   margin-bottom: 100px;
 }
+
+
 
 .hub-kind-box h3{
   margin-top: 50px;
@@ -417,7 +421,6 @@ header .container nav .float-r li a:first-child{
 }
 
 .spot-container h2{
-
   margin-bottom: 25px;
 }
 
@@ -481,6 +484,12 @@ header .container nav .float-r li a:first-child{
  .grid-numbers-box h2{
    font-family: 'Montserrat', sans-serif;
    font-size: 40px;
+}
+
+.grid-numbers-box h2::after{
+  content: "+";
+  font-size: 0.5em;
+  vertical-align: middle;
 }
 
 
