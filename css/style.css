@@ -22,6 +22,10 @@ h2{
   font-size: 30px;
 }
 
+h3{
+  font-size: 20px;
+}
+
 .container{
   width: 1200px;
   min-width: 1200px;
@@ -359,7 +363,6 @@ font-size: 20px;
 
 .hub-kind-box p{
   /* font-size: 20px; */
-
   margin-bottom: 100px;
 }
 
@@ -572,9 +575,9 @@ footer{
   color: #fff;
 }
 
-.footer-services-box h3{
+.footer-services-box h4{
   margin-bottom: 20px;
-  font-size: 15px;
+  
 }
 
 .footer-services-box p{
