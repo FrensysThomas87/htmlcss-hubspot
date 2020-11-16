@@ -308,10 +308,15 @@ header .container nav .float-r li a:first-child{
 
 
 
-.free-hubspot-crm-description hr{
-  width: 400px;
-  margin-top : 10px;
-  margin-right: 40px;
+
+.free-hubspot-crm-description h3::before {
+    content: '';
+    float: right;
+    width: 65%;
+    height: 2px;
+    /* line-height 20px - 2px = 18px */
+    margin-top: 10px;
+    background-color: #899397;
 }
 
 .check-container{
@@ -367,7 +372,7 @@ header .container nav .float-r li a:first-child{
 .hub-kind-box h3{
   margin-top: 50px;
   margin-bottom: 40px;
-  
+
 }
 
 
