@@ -337,9 +337,10 @@ header .container nav .float-r li a:first-child{
 }
 
 .hub-kind-box h2{
-
   margin-bottom: 15px;
 }
+
+
 
  .hub-kind-box p{
 
@@ -423,22 +424,17 @@ header .container nav .float-r li a:first-child{
 
 }
 
+.border-right{
+  border-right: 1px solid #fff;
+}
+
 .grid-numbers-box{
   height: 150px;
 }
 
-.top.grid-numbers-box,
-.bottom.grid-numbers-box{
-  border-right: 1px solid #fff;
-}
 
-.top.grid-numbers-box:nth-child(4),
-.bottom.grid-numbers-box:last-child{
-  border-right: 0;
-}
 
 .bottom.grid-numbers-box{
-
   padding-top: 15px;
 }
 
