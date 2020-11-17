@@ -347,7 +347,7 @@ header .container nav .float-r li a:first-child{
 }
 
 
-.hub-kind-box h3::before{
+/* .hub-kind-box h3::before{
   content: "";
   background-color: black;
   width: 60%;
@@ -356,7 +356,7 @@ header .container nav .float-r li a:first-child{
   text-align: center;
   top: 20px;
 
-}
+} */
 
 
 .hub-kind-box h3{
