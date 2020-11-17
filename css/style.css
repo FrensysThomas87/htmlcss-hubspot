@@ -77,7 +77,8 @@ h3{
   text-align: center;
 }
 
-.color-darkgrey{
+.color-darkgrey,
+hr{
   color: #33475b;
 }
 
@@ -288,7 +289,7 @@ header .container nav .float-r li a:first-child{
     height: 2px;
     /* line-height 20px - 2px = 18px */
     margin-top: 10px;
-    background-color: #899397;
+    background-color: #33475b;
 }
 
 .check-container{
