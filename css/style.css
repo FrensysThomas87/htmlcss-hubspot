@@ -175,7 +175,6 @@ header .container nav .float-r li a:first-child{
 
 /*JUMBOTRON*/
 
-
 .jumbotron{
   height: 700px;
   background: url("../img/jumbotron.png") no-repeat;
@@ -489,14 +488,14 @@ header .container nav .float-r li a:first-child{
 .top-logo-partners-container,
 .bottom-logo-partners-container{
   width: 100%;
-  height: 100px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
 }
 
-.logo-partners-images-container img{
-  width: 100%;
-  height: 100%;
+.logo-partners-container img{
+  width: 20%;
+  vertical-align: middle;
+  margin-right: 15px;
 }
 
 .grow-with-hubspot-container{
