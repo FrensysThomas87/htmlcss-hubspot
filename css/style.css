@@ -318,7 +318,6 @@ header .container nav .float-r li a:first-child{
 }
 
 
-
 .sales-hub-container{
   width:453px;
   border: 1px solid black;
@@ -344,10 +343,20 @@ header .container nav .float-r li a:first-child{
 
 
  .hub-kind-box p{
-
-  margin-bottom: 100px;
+   margin-bottom: 100px;
 }
 
+
+.hub-kind-box h3::before{
+  content: "";
+  background-color: black;
+  width: 60%;
+  height: 2px;
+  position: relative;
+  text-align: center;
+  top: 20px;
+
+}
 
 
 .hub-kind-box h3{
@@ -455,9 +464,7 @@ header .container nav .float-r li a:first-child{
    font-size: 40px;
 }
 
-
-
- .grid-numbers-box h2::after{
+.grid-numbers-box h2::after{
   content: "+";
   font-size: 0.5em;
   vertical-align: middle;
