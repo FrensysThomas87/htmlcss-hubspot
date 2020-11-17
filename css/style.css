@@ -92,7 +92,7 @@ hr{
 /*HEADER*/
 header{
   background-color: #c0e8e8;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #33475b;
 }
 
 
@@ -437,8 +437,6 @@ header .container nav .float-r li a:first-child{
   height: 150px;
 }
 
-
-
 .bottom.grid-numbers-box{
   padding-top: 15px;
 }
@@ -620,6 +618,5 @@ a .hubspot-support-button span{
   margin-right: 20px;
   color: #fff;
 }
-
 
 /*END FOOTER*/
