@@ -92,11 +92,6 @@ header{
   border-bottom: 2px solid #000;
 }
 
-/* .navbar-container{
-  position: relative;
-  top: 40px;
-
-} */
 
 header .container nav ul{
   line-height: 100px;
@@ -109,12 +104,6 @@ header .container nav ul li{
 }
 
 /*NAVBAR-LEFT*/
-
-header .container nav .float-l li a{
-  color: #000;
-  }
-
-
 
 header .container nav .float-l li i:first-child{
   padding-right: 3px;
@@ -141,9 +130,6 @@ header .container nav .float-r li:first-child{
 header .container nav .float-r li a:first-child{
   color: #68c9d8;
 }
-
-
-
 
 .login-button{
   border: 1px solid #f87058;
@@ -183,13 +169,6 @@ header .container nav .float-r li a:first-child{
 .right-nav-under-header nav ul li{
   display: inline-block;
   padding-right: 30px;
-}
-
-
-
-.right-nav-under-header nav ul li a{
-
-  color: #000;
 }
 
 /*END UNDER HEADER NAV*/
@@ -237,10 +216,6 @@ header .container nav .float-r li a:first-child{
     font-size: 15px;
 }
 
-
-
-
-
 /*END JUMBOTRON*/
 
 /*HUB KIND SECTION*/
@@ -266,10 +241,6 @@ header .container nav .float-r li a:first-child{
 
   margin-bottom: 30px;
 }
-
-
-
-
 
 /*HUBSPOT CRM*/
 
@@ -305,9 +276,6 @@ header .container nav .float-r li a:first-child{
   /* font-size: 20px; */
   line-height: 30px;
 }
-
-
-
 
 .free-hubspot-crm-description h3::before {
     content: '';
@@ -399,7 +367,6 @@ header .container nav .float-r li a:first-child{
   margin-bottom: 30px;
   font-size: 20px;
 
-
 }
 
 .learn-more-button a span{
@@ -468,8 +435,6 @@ header .container nav .float-r li a:first-child{
   padding-top: 15px;
 }
 
-
-
 .grid-numbers-box img,
 .grid-numbers-box h2{
   margin-bottom: 10px;
@@ -494,11 +459,9 @@ header .container nav .float-r li a:first-child{
   vertical-align: middle;
 }
 
-
 /*END NUMBERS SECTION */
 
 /*PARTNERS SECTION*/
-
 
 .customers-number-container{
   width: 250px;
@@ -506,30 +469,20 @@ header .container nav .float-r li a:first-child{
 }
 
 
-
 #customers-number{
   font-size: 40px;
   margin-bottom: 30px;
 }
 
-
-
-
-
 .logo-partners-container{
   width: 600px;
   height: 200px;
   margin-right: 100px;
-
-
-
 }
 
 .logo-partners-images-container{
   width: 100px;
   margin-left: 30px;
-
-
 }
 
 .top-logo-partners-container,
@@ -538,14 +491,11 @@ header .container nav .float-r li a:first-child{
   height: 100px;
   margin-bottom: 10px;
 
-
 }
-
 
 .logo-partners-images-container img{
   width: 100%;
   height: 100%;
-
 }
 
 .grow-with-hubspot-container{
@@ -631,7 +581,6 @@ a .hubspot-support-button span{
 .icon i:first-child{
   margin-left: 0;
 }
-
 
 
 .languages-container{
