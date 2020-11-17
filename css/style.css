@@ -198,12 +198,13 @@ header .container nav .float-r li a:first-child{
 }
 
 .jumbotron-container{
+  margin-top: 50px;
   width: 700px;
 
 }
 
 .jumbotron-container h1{
-  font-size: 70px;
+  font-size: 55px;
 }
 
 .jumbotron-container p{
