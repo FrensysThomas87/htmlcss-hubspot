@@ -81,6 +81,10 @@ h3{
   color: #33475b;
 }
 
+.box-shadow{
+  box-shadow:1px 1px 3px 2px #aabb;
+}
+
 
 /*END UTILITIES*/
 
@@ -309,7 +313,10 @@ header .container nav .float-r li a:first-child{
   border-radius: 4px;
   text-align: center;
   padding: 20px 20px;
+
 }
+
+
 
 .sales-hub-container{
   width:453px;
