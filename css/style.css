@@ -91,15 +91,13 @@ hr{
 
 /*HEADER*/
 header{
-
-  height: 100px;
   background-color: #c0e8e8;
   border-bottom: 2px solid #000;
 }
 
 
 header .container nav ul{
-  line-height: 100px;
+   line-height: 100px;
 }
 
 header .container nav ul li{
@@ -157,10 +155,7 @@ header .container nav .float-r li a:first-child{
 
 
 /*UNDER HEADER NAV*/
-.under-header-navigation{
-  height: 100px;
-  position: relative;
-}
+
 
 .hubspot-logo-container{
   margin-top: 35px;
