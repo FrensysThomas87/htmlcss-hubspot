@@ -93,6 +93,7 @@ hr{
 header{
   background-color: #c0e8e8;
   border-bottom: 2px solid #33475b;
+
 }
 
 
@@ -155,6 +156,7 @@ header .container nav .float-r li a:first-child{
 
 
 /*UNDER HEADER NAV*/
+
 
 
 .hubspot-logo-container{
@@ -313,12 +315,6 @@ header .container nav .float-r li a:first-child{
 }
 
 
-.sales-hub-container{
-  width:453px;
-  border: 1px solid black;
-  padding: 0 40px;
-}
-
 .hub-kind-box:nth-child(2){
   margin: 50px 40px;
 }
@@ -342,17 +338,16 @@ header .container nav .float-r li a:first-child{
 }
 
 
-/* .hub-kind-box h3::before{
+.hub-kind-box h3:before{
   content: "";
-  background-color: black;
-  width: 60%;
+  background-color: #33475b;
+  width: 98%;
   height: 2px;
-  position: relative;
   text-align: center;
   top: 20px;
-
-} */
-
+  display:block;
+  margin-bottom: 30px;
+}
 
 .hub-kind-box h3{
   margin-top: 50px;
@@ -511,10 +506,6 @@ header .container nav .float-r li a:first-child{
   margin-bottom: 30px;
 }
 
-.grow-with-hubspot-container a:last-child span {
-  color: #000;
-  font-size: 10px;
-}
 
 .immagine-signorina-container{
   width: 300px;
